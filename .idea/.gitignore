@@ -1,7 +1,0 @@
-# Default ignored files
-*.pyc
-__pycache__/
-*.pyo
-*.pyd
-.venv
-.idea
