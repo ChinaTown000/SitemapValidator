@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from pytest import mark, fixture
-from typing import List, Tuple, Optional
-from requests import get as _get, Response, session
+from typing import Tuple, Optional
+from requests import get as _get, Response
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 @fixture(scope='session')
